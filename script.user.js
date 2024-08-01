@@ -2,7 +2,7 @@
 // @name        Hamster bike keygen
 // @version     1.10
 // @homepageURL https://github.com/georg95/hamster-bike-keygen/blob/main/README.md
-// @downloadURL https://georg95.github.io/hamster-bike-keygen/script.user.js
+// @downloadURL https://github.com/Mikaeil-t/hamseter.airdropBefarsi/blob/main/script.user.js
 // @author      georg95
 // @namespace   Violentmonkey Scripts
 // @match       *://georg95.github.io/*
