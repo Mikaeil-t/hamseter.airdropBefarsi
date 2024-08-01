@@ -34,7 +34,7 @@ function initProgress(keyText) {
   const progressPerDelay = 20
   let totalProgress = progressPerDelay * delays
   let emojiFlip = false
-  keyText.innerText = `${emojiFlip ? 'Team\t' : '@AirdropBeFarsi\t'}0%`
+  keyText.innerText = `${emojiFlip ? 'Team\t' : '@AirdropBeFarsi\t '} 0%`
   let curProgress = 0
   async function progressDelay(unexpected) {
     if (unexpected) {
@@ -43,7 +43,7 @@ function initProgress(keyText) {
     const delay = EVENTS_DELAY * delayRandom()
     const delayInterval = delay / progressPerDelay
     for (let i = 0; i < progressPerDelay; i++) {
-      keyText.innerText = `${emojiFlip ? 'AirdropBeFarsi\t' : 'Team\t'}${Math.round(curProgress / totalProgress * 100)}%`
+      keyText.innerText = `${emojiFlip ? 'AirdropBeFarsi\t' : 'Team\t '}${Math.round(curProgress / totalProgress * 100)}%`
       curProgress++
       emojiFlip = !emojiFlip
       await sleep(delayInterval)
@@ -78,7 +78,7 @@ async function start() {
     buttons.removeChild(nextBtn)
   }
   async function keygen() {
-    keyText.innerText = '⏳⏳⏳'
+    keyText.innerText = 'AirdropBeFarsi'
     const token = await login(generateClientId())
     const progressDelay = initProgress(keyText)
     console.log('login, token:', token)
