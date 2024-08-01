@@ -1,0 +1,2 @@
+# hamseter.airdropBefarsi
+hamster.key
