@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://georg95.github.io/hamster-bike-keygen/keygen_bg.jpg
+// @resource    BACKGROUND https://github.com/Mikaeil-t/hamseter.airdropBefarsi/blob/main/demo.jpg
 // @noframes
 // ==/UserScript==
 
